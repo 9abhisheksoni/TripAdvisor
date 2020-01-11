@@ -2,42 +2,40 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50380" started-at="2020-01-11T07:01:22Z" finished-at="2020-01-11T07:02:12Z">
+  <suite name="Default suite" duration-ms="35418" started-at="2020-01-11T07:06:57Z" finished-at="2020-01-11T07:07:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50380" started-at="2020-01-11T07:01:22Z" finished-at="2020-01-11T07:02:12Z">
+    <test name="Default test" duration-ms="35418" started-at="2020-01-11T07:06:57Z" finished-at="2020-01-11T07:07:32Z">
       <class name="com.ta.qa.testcases.HotelReviewTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ta.qa.testcases.HotelReviewTest@16c0663d]" name="setup" is-config="true" duration-ms="18354" started-at="2020-01-11T12:31:22Z" finished-at="2020-01-11T12:31:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ta.qa.testcases.HotelReviewTest@23223dd8]" name="setup" is-config="true" duration-ms="21268" started-at="2020-01-11T12:36:57Z" finished-at="2020-01-11T12:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="hotelStayReviewTest()[pri:0, instance:com.ta.qa.testcases.HotelReviewTest@16c0663d]" name="hotelStayReviewTest" duration-ms="31997" started-at="2020-01-11T12:31:40Z" finished-at="2020-01-11T12:32:12Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="hotelStayReviewTest()[pri:0, instance:com.ta.qa.testcases.HotelReviewTest@23223dd8]" name="hotelStayReviewTest" duration-ms="12938" started-at="2020-01-11T12:37:18Z" finished-at="2020-01-11T12:37:31Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ui_bubble_rating fl bubble_50']"}
+              <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=79.0.3945.79)
   (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-SHUBHAM', ip: '172.20.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Happy\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60670}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.79, webStorageEnabled: true}
-Session ID: b2dd78184e77377c2e649c0b6c9b6a57
-*** Element info: {Using=xpath, value=//span[@class='ui_bubble_rating fl bubble_50']}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Happy\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61143}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.79, webStorageEnabled: true}
+Session ID: 7c21cf8274f22161bc79af385a98ecbd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ui_bubble_rating fl bubble_50']"}
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=79.0.3945.79)
   (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-SHUBHAM', ip: '172.20.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Happy\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60670}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.79, webStorageEnabled: true}
-Session ID: b2dd78184e77377c2e649c0b6c9b6a57
-*** Element info: {Using=xpath, value=//span[@class='ui_bubble_rating fl bubble_50']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Happy\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61143}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.79, webStorageEnabled: true}
+Session ID: 7c21cf8274f22161bc79af385a98ecbd
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -50,19 +48,16 @@ Session ID: b2dd78184e77377c2e649c0b6c9b6a57
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getCoordinates(Unknown Source)
-	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:69)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:42)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
-	at com.ta.qa.pages.ReviewPage.hoverStarBubble(ReviewPage.java:20)
-	at com.ta.qa.testcases.HotelReviewTest.hotelStayReviewTest(HotelReviewTest.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.ta.qa.pages.HotelPage.clickOnReviewButton(HotelPage.java:19)
+	at com.ta.qa.testcases.HotelReviewTest.hotelStayReviewTest(HotelReviewTest.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -89,10 +84,14 @@ Session ID: b2dd78184e77377c2e649c0b6c9b6a57
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hotelStayReviewTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ta.qa.testcases.HotelReviewTest@23223dd8]" name="tearDown" is-config="true" duration-ms="1187" started-at="2020-01-11T12:37:31Z" finished-at="2020-01-11T12:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.ta.qa.testcases.HotelReviewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

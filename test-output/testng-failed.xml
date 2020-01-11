@@ -5,6 +5,7 @@
     <classes>
       <class name="com.ta.qa.testcases.HotelReviewTest">
         <methods>
+          <include name="tearDown"/>
           <include name="setup"/>
           <include name="hotelStayReviewTest"/>
         </methods>

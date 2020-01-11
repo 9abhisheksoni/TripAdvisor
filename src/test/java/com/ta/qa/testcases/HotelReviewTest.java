@@ -38,6 +38,7 @@ public class HotelReviewTest extends TestBase {
 		homepage.hotelSearch();
 		hotelRslt.clickFirstHotel();
 		utils.windowHandle();
+		utils.shortWait();
 		hotelpg.clickOnReviewButton();
 	}
 
