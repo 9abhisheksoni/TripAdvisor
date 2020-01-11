@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import com.ta.qa.base.TestBase;
 import com.ta.qa.pages.HomePage;
+import com.ta.qa.pages.HotelPage;
 import com.ta.qa.pages.HotelResults;
 import com.ta.qa.pages.ReviewPage;
 import com.ta.qa.utils.TestUtils;
@@ -16,6 +17,7 @@ public class HotelReviewTest extends TestBase {
 	HotelResults hotelRslt;
 	TestUtils utils;
 	ReviewPage reviewPg;
+	HotelPage hotelpg;
 
 	public HotelReviewTest() {
 		super();
@@ -28,6 +30,7 @@ public class HotelReviewTest extends TestBase {
 		hotelRslt = new HotelResults();
 		utils = new TestUtils();
 		reviewPg = new ReviewPage();
+		hotelpg = new HotelPage();
 	}
 
 	@Test
@@ -35,14 +38,13 @@ public class HotelReviewTest extends TestBase {
 		homepage.hotelSearch();
 		hotelRslt.clickFirstHotel();
 		utils.windowHandle();
-		driver.switchTo().window("hotelResultWindow");
-		reviewPg.hoverStarBubble();
+		hotelpg.clickOnReviewButton();
 	}
 
-	/*@AfterTest
+	@AfterTest
 	public void tearDown() {
 		driver.quit();
 
-	}*/
+	}
 
 }

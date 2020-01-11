@@ -19,6 +19,8 @@ public class TestUtils extends TestBase{
 		Iterator<String> it = windows.iterator();
 		String hotelResultWindow = it.next();
 		String selectedHotel = it.next();
+		driver.switchTo().window(selectedHotel);
+		
 	}
 	
 }
