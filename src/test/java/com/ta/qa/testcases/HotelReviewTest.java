@@ -22,7 +22,7 @@ public class HotelReviewTest extends TestBase {
 	public HotelReviewTest() {
 		super();
 	}
-
+	//New comment
 	@BeforeMethod
 	public void setup() {
 		initializtion();
