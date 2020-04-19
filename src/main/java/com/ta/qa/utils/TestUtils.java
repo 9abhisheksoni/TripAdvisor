@@ -14,12 +14,12 @@ public class TestUtils extends TestBase{
 		Thread.sleep(3000);
 	}
 	
-	public void windowHandle() {
+	public void windowHandle(String win) {
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> it = windows.iterator();
 		String hotelResultWindow = it.next();
 		String selectedHotel = it.next();
-		driver.switchTo().window(selectedHotel);
+		driver.switchTo().window(win);
 		
 	}
 	

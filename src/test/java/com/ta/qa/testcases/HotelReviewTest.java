@@ -37,7 +37,7 @@ public class HotelReviewTest extends TestBase {
 	public void hotelStayReviewTest() throws InterruptedException {
 		homepage.hotelSearch();
 		hotelRslt.clickFirstHotel();
-		utils.windowHandle();
+		utils.windowHandle("selectedHotel");
 		utils.shortWait();
 		hotelpg.clickOnReviewButton();
 	}
